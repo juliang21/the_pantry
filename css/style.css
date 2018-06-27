@@ -1,0 +1,60 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 420px;
+}
+
+nav {
+  background-color: #000;
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+}
+
+.restaurant-list {
+  background-color: #D9D9D9;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.location {
+  padding: 15px;
+  border-bottom: 1px solid #9A9A9A;
+}
+
+
+.restaurant-list :hover {
+  background-color: rgb(192,192,192);
+}
+
+.content {
+  display: inline-block;
+  width: 95%;
+}
+
+.content h1 {
+  font-size: 1.3em;
+  font-weight: 800;
+}
+
+.content :hover {
+  background-color: none;
+}
+
+h3 {
+  color: #666;
+}
+
+.arrow {
+  display: inline-block;
+}
